@@ -3,13 +3,9 @@ import HomePage from "./components/HomePage"
 import InputPage from "./components/InputPage"
 import EditPage from "./components/EditPage"
 import ViewNotePage from "./components/ViewNotePage"
-import moment from "moment"
+import moment from 'moment'
 import "./components/App.css"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 const LOCAL_STORAGE_KEY = "notes"
 
